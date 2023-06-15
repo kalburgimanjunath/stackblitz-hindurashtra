@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // import { BeakerIcon } from '@heroicons/react/24/solid';
-
+import React from 'react';
 export default function Navbar() {
   return (
     <div className="navbar container">

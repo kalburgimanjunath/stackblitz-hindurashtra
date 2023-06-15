@@ -8,11 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.22.5",
     "@emotion/react": "^11.11.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
-    "@mikecousins/react-pdf": "^6.1.1",
-    "@phuocng/react-pdf-viewer": "^1.7.0",
     "@radix-ui/colors": "^0.1.8",
     "@radix-ui/react-popover": "1.0.6",
     "@react-pdf/renderer": "^3.1.12",

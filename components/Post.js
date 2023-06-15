@@ -1,3 +1,4 @@
+import React from 'react';
 export const POST = ({ items, title }) => {
   return (
     <div className="m-1 p-24 bg-white-100">

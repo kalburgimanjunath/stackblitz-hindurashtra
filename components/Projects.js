@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Projects({ data, title }) {
   return (
     <div className="cards m-1 p-24 bg-gray-100">

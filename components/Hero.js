@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import * as Popover from '@radix-ui/react-popover';
+import React from 'react';
 export default function Hero({ data }) {
   return (
     <div className="p-24">
