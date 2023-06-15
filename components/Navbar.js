@@ -14,7 +14,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="hover:bg-gray-100">
-          <Link href="/snippets">Snippets</Link>
+          <Link href="/snippets">Deity</Link>
         </li>
         {/* 
         <li className="hover:bg-gray-100">
