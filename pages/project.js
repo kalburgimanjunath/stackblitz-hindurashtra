@@ -1,3 +1,4 @@
+import React from 'react';
 import Projects from '../components/Projects';
 import { MYDATA } from './api/mydata';
 import styles from '../styles/Home.module.css';

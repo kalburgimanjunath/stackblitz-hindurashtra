@@ -1,16 +1,26 @@
 import { SNIPPETS } from '../api/snippets';
 import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
+import React from 'react';
 export default function Index() {
   return (
     <div>
       <div>
         <div className="p-24">
-          <h3 className="text-lg">Snippets</h3>
+          <h3 className="text-lg">Deity</h3>
           <p>
-            Reusable code snippets that can be easily integrated in your
-            application 🧩. The page contains functions and code snippets which
-            can be used on your webpage.
+            A deity is a divine being or god that is worshipped and revered in
+            various religious traditions. Deities are often associated with
+            supernatural powers, control over natural elements, and influence
+            over human affairs. They are typically considered immortal,
+            omniscient, and omnipotent. Deities can take different forms and be
+            worshipped in different ways, depending on the specific religious
+            beliefs and cultural practices of a particular group or society.
+            Examples of deities include gods and goddesses from ancient
+            mythologies, such as Zeus in Greek mythology, Shiva in Hinduism, and
+            Odin in Norse mythology. Different religions and belief systems have
+            their own pantheons of deities, each with their own characteristics,
+            roles, and symbolism.
           </p>
           <button
             type="button"

@@ -1,3 +1,4 @@
+import React from 'react';
 import { POSTS } from './api/posts';
 import { POST } from '../components/Post';
 import Link from 'next/link';
