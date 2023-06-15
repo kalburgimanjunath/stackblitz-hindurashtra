@@ -1,0 +1,59 @@
+@import 'navbar.module.css';
+@import 'card.module.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  @import 'popover.module.css';
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #546a76;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@layer base {
+  h1 {
+    @apply font-bold text-2xl;
+  }
+  h2 {
+    @apply font-bold text-xl;
+  }
+  h3 {
+    @apply font-bold text-lg;
+  }
+  h4 {
+    @apply font-bold text-lg;
+  }
+  h5 {
+    @apply font-bold text-lg;
+  }
+}
+.primary-button {
+  border-radius: 10px;
+}
+.form-group {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  @apply font-bold;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+}
+.form-control {
+  padding: 5px;
+  @apply bg-pink-100 border-2 border-pink-600;
+}
